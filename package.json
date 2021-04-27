@@ -1,0 +1,22 @@
+{
+  "name": "lit-ternario-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.3",
+    "@open-wc/testing": "^2.5.32",
+    "@web/test-runner": "^0.12.15",
+    "wct-mocha": "^1.1.0"
+  }
+}
